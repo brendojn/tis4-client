@@ -2,7 +2,7 @@ import React from 'react'
 
 const Page = () => {
     return (
-        <div>Página Sobre</div>
+        <div>Projeto de gamificação na área contábil</div>
     )
 }
 
