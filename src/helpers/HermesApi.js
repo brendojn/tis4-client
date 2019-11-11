@@ -1,7 +1,7 @@
 import Cookies from 'js-cookie'
 import qs from 'qs'
 
-const BASEAPI = 'http://alunos.b7web.com.br:501'
+const BASEAPI = 'http://localhost:3000'
 
 const apiFetchPost = async (endpoint, body) => {
     if (!body.token) {
@@ -48,7 +48,7 @@ const apiFetchGet = async (endpoint, body = []) => {
     return json
 }
 
-const RequestAPI = {
+const HermesApi = {
 
     login: async (email, password) => {
         const json = await apiFetchPost(
@@ -65,13 +65,6 @@ const RequestAPI = {
         )
         return json
     },
-
-    getStates:async () => {
-        const json = await apiFetchGet(
-            '/states'
-        )
-        return json.states
-    }
 }
 
-export default () => RequestAPI
+export default () => HermesApi
