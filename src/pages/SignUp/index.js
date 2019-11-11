@@ -3,7 +3,6 @@ import { PageArea } from './styled'
 import { PageContainer, PageTitle, ErrorMessage } from '../../components/MainComponents'
 import useApi from '../../helpers/HermesApi'
 import { doLogin } from '../../helpers/AuthHandler'
-import {register} from "react-scripts/template-typescript/src/serviceWorker";
 
 const Page = () => {
 

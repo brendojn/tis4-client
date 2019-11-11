@@ -17,9 +17,12 @@ const Header = () => {
             <div className="container">
                 <div className="logo">
                     <Link to="/">
-                        <span className="logo1">O</span>
-                        <span className="logo2">L</span>
-                        <span className="logo3">X</span>
+                        <span className="logo1">H</span>
+                        <span className="logo2">E</span>
+                        <span className="logo3">R</span>
+                        <span className="logo4">M</span>
+                        <span className="logo5">E</span>
+                        <span className="logo6">S</span>
                     </Link>
                 </div>
                 <nav>
